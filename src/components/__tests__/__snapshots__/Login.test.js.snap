@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: Login Login Form renders correctly 1`] = `
+<Form>
+  <Input
+    errorMessage={null}
+    id="username"
+    label="Username"
+    name="username"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+  <Input
+    errorMessage={null}
+    id="password"
+    label="Password"
+    name="password"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="password"
+  />
+  <Button
+    aria-label="Sign in"
+    block={true}
+    colour="primary"
+    disabled={true}
+    id="login-form-button"
+    onClick={[Function]}
+    size="medium"
+    type="submit"
+  >
+    Sign in
+  </Button>
+</Form>
+`;
+
+exports[`Components: Login Login renders correctly 1`] = `
+<styled.main>
+  <styled.div>
+    <Logo
+      alt="MYOB"
+      className=""
+    />
+  </styled.div>
+  <Heading
+    noMargin={false}
+    textAlign="center"
+    type="h1"
+  >
+    Sign in to Pay Slip Generator
+  </Heading>
+  <styled.div>
+    <Card
+      loading={false}
+    >
+      <Formik
+        enableReinitialize={false}
+        initialValues={
+          Object {
+            "password": "",
+            "username": "",
+          }
+        }
+        isInitialValid={false}
+        onSubmit={[Function]}
+        render={[Function]}
+        validateOnBlur={true}
+        validateOnChange={true}
+        validationSchema={
+          ObjectSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_defaultDefault": [Function],
+            "_deps": Array [],
+            "_excludedEdges": Array [],
+            "_exclusive": Object {},
+            "_mutate": undefined,
+            "_nodes": Array [
+              "password",
+              "username",
+            ],
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "object",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "fields": Object {
+              "password": StringSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "required": true,
+                },
+                "_mutate": undefined,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+              "username": StringSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "required": true,
+                },
+                "_mutate": undefined,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+          }
+        }
+      />
+    </Card>
+  </styled.div>
+</styled.main>
+`;

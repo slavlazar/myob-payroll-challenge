@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: Shared: UI: Form DateInput renders correctly 1`] = `
+.c2 {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1.6rem;
+  padding: 1rem 1.6rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #efefef;
+}
+
+.c2:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.1);
+  box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.1);
+  border-color: #8241AA;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin: 0;
+}
+
+.c1 .react-datepicker-wrapper,
+.c1 .react-datepicker__input-container {
+  display: block;
+}
+
+.c1 .react-datepicker {
+  font-size: 1.2rem;
+  font-family: NeutroMYOB-Medium;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.c1 .react-datepicker__current-month,
+.c1 .react-datepicker-time__header,
+.c1 .react-datepicker-year-header {
+  font-size: 1.3rem;
+}
+
+.c1 .react-datepicker__month--selected,
+.c1 .react-datepicker__month--in-selecting-range,
+.c1 .react-datepicker__month--in-range {
+  background-color: #8241AA;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "colour": Object {
+        "alert": Object {
+          "danger": "#fff5f7",
+          "default": "#f5f5f5",
+          "success": "#00d1b2",
+        },
+        "background": "#f3f4f5",
+        "border": "#efefef",
+        "buttonPrimary": "#ffffff",
+        "buttonPrimaryBackground": "#00aa65",
+        "footerBackground": "#1b2830",
+        "heading": "#2e3e4f",
+        "navBackground": "#ffffff",
+        "primary": "#8241AA",
+        "secondary": "#ed005f",
+        "text": "#515e6d",
+      },
+      "font": Object {
+        "family": Object {
+          "body": "NeutroMYOB-Regular",
+          "fallback": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif",
+          "heading": "NeutroMYOB-Medium",
+          "strong": "NeutroMYOB-Demi",
+        },
+        "size": Object {
+          "large": "1.8rem",
+          "medium": "1.6rem",
+          "small": "1.4rem",
+          "xlarge": "2.2rem",
+          "xsmall": "1.2rem",
+        },
+        "variants": Object {
+          "body": Object {
+            "family": "NeutroMYOB-Regular",
+            "src": Array [
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Regular.woff2)",
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Regular.woff)",
+            ],
+            "style": "normal",
+            "weight": 400,
+          },
+          "heading": Object {
+            "family": "NeutroMYOB-Medium",
+            "src": Array [
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Medium.woff2)",
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Medium.woff)",
+            ],
+            "style": "normal",
+            "weight": 600,
+          },
+          "strong": Object {
+            "family": "NeutroMYOB-Demi",
+            "src": Array [
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Demi.woff2)",
+              "url(https://assets.digital.myob.com/fonts/NeutroMYOB-Demi.woff)",
+            ],
+            "style": "normal",
+            "weight": 700,
+          },
+        },
+        "weight": Object {
+          "bold": 600,
+          "normal": 400,
+        },
+      },
+      "lineHeight": Object {
+        "heading": 1.5,
+        "text": 1.7,
+      },
+      "media": Object {
+        "desktop": 768,
+        "large": 992,
+        "tablet": 576,
+      },
+    }
+  }
+>
+  <DateInput
+    className={null}
+    dateFormat="MM/yyyy"
+    disabled={false}
+    errorMessage={null}
+    formik={
+      Object {
+        "setFieldTouched": [Function],
+        "setFieldValue": [Function],
+      }
+    }
+    hint={null}
+    id={null}
+    label={null}
+    name="DateInput"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder={null}
+    required={false}
+    showMonthYearPicker={true}
+    style={null}
+    value="Testing"
+  >
+    <InputComponent
+      autoComplete="off"
+      component={null}
+      dateFormat="MM/yyyy"
+      disabled={false}
+      disabledKeyboardNavigation={true}
+      error={null}
+      errorMessage={null}
+      hint={null}
+      id={null}
+      label={null}
+      name="DateInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onChangeRaw={[Function]}
+      onFocus={[Function]}
+      placeholderText={null}
+      render={[Function]}
+      required={false}
+      selected={Date { NaN }}
+      showMonthYearPicker={true}
+      style={null}
+      value="Testing"
+    >
+      <styled.div>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "lastClassName": "c0",
+                "rules": Array [
+                  "
+  margin-bottom: 1.5rem;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c0"
+          >
+            <styled.div>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-EHOje",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  margin: 0;
+  ",
+                        "
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    display: block;
+  }
+  .react-datepicker {
+    font-size: 1.2rem;
+    font-family: ",
+                        [Function],
+                        ";
+    font-weight: ",
+                        [Function],
+                        ";
+    line-height: ",
+                        [Function],
+                        ";
+  }
+  .react-datepicker__current-month,
+  .react-datepicker-time__header,
+  .react-datepicker-year-header {
+    font-size: 1.3rem;
+  }
+  .react-datepicker__month--selected,
+  .react-datepicker__month--in-selecting-range,
+  .react-datepicker__month--in-range {
+    background-color: ",
+                        [Function],
+                        ";
+  }
+",
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-EHOje",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c1"
+                >
+                  <styled.input
+                    aria-describedby="DateInput_error"
+                    as={[Function]}
+                    autoComplete="off"
+                    className={null}
+                    dateFormat="MM/yyyy"
+                    disabled={false}
+                    disabledKeyboardNavigation={true}
+                    error={null}
+                    errorMessage={null}
+                    hint={null}
+                    id="DateInput"
+                    name="DateInput"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onChangeRaw={[Function]}
+                    onFocus={[Function]}
+                    placeholderText={null}
+                    required={false}
+                    selected={Date { NaN }}
+                    showMonthYearPicker={true}
+                    style={null}
+                    value="Testing"
+                  >
+                    <StyledComponent
+                      aria-describedby="DateInput_error"
+                      as={[Function]}
+                      autoComplete="off"
+                      className={null}
+                      dateFormat="MM/yyyy"
+                      disabled={false}
+                      disabledKeyboardNavigation={true}
+                      error={null}
+                      errorMessage={null}
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              "
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-size: ",
+                              [Function],
+                              ";
+  padding: 1rem 1.6rem;
+  border-radius: 4px;
+  background-color: ",
+                              [Function],
+                              ";
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: ",
+                              [Function],
+                              ";
+
+  &:focus {
+    outline: none;
+    -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    border-color: ",
+                              [Function],
+                              ";
+  }
+",
+                            ],
+                          },
+                          "displayName": "styled.input",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "input",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      hint={null}
+                      id="DateInput"
+                      name="DateInput"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onChangeRaw={[Function]}
+                      onFocus={[Function]}
+                      placeholderText={null}
+                      required={false}
+                      selected={Date { NaN }}
+                      showMonthYearPicker={true}
+                      style={null}
+                      value="Testing"
+                    >
+                      <DatePicker
+                        allowSameDay={false}
+                        aria-describedby="DateInput_error"
+                        autoComplete="off"
+                        className="c2"
+                        dateFormat="MM/yyyy"
+                        dateFormatCalendar="LLLL yyyy"
+                        disabled={false}
+                        disabledKeyboardNavigation={true}
+                        dropdownMode="scroll"
+                        error={null}
+                        errorMessage={null}
+                        hint={null}
+                        id="DateInput"
+                        inlineFocusSelectedMonth={false}
+                        monthsShown={1}
+                        name="DateInput"
+                        nextMonthButtonLabel="Next month"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onChangeRaw={[Function]}
+                        onClickOutside={[Function]}
+                        onFocus={[Function]}
+                        onInputClick={[Function]}
+                        onInputError={[Function]}
+                        onKeyDown={[Function]}
+                        onMonthChange={[Function]}
+                        onSelect={[Function]}
+                        onYearChange={[Function]}
+                        placeholderText={null}
+                        preventOpenOnFocus={false}
+                        previousMonthButtonLabel="Previous Month"
+                        readOnly={false}
+                        renderDayContents={[Function]}
+                        required={false}
+                        selected={Date { NaN }}
+                        shouldCloseOnSelect={true}
+                        showMonthYearPicker={true}
+                        showTimeInput={false}
+                        showTimeSelect={false}
+                        strictParsing={false}
+                        style={null}
+                        timeCaption="Time"
+                        timeInputLabel="Time"
+                        timeIntervals={30}
+                        value="Testing"
+                        withPortal={false}
+                      >
+                        <PopperComponent
+                          hidePopper={true}
+                          popperComponent={null}
+                          popperModifiers={
+                            Object {
+                              "preventOverflow": Object {
+                                "boundariesElement": "viewport",
+                                "enabled": true,
+                                "escapeWithReference": true,
+                              },
+                            }
+                          }
+                          popperPlacement="bottom-start"
+                          popperProps={Object {}}
+                          targetComponent={
+                            <div
+                              className="react-datepicker__input-container"
+                            >
+                              <input
+                                autoComplete="off"
+                                className="c2"
+                                disabled={false}
+                                id="DateInput"
+                                name="DateInput"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                placeholder={null}
+                                readOnly={false}
+                                required={false}
+                                type="text"
+                                value="Testing"
+                              />
+                            </div>
+                          }
+                        >
+                          <Manager>
+                            <Reference>
+                              <InnerReference
+                                setReferenceNode={[Function]}
+                              >
+                                <div
+                                  className="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      autoComplete="off"
+                                      className="c2"
+                                      disabled={false}
+                                      id="DateInput"
+                                      name="DateInput"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      placeholder={null}
+                                      readOnly={false}
+                                      required={false}
+                                      type="text"
+                                      value="Testing"
+                                    />
+                                  </div>
+                                </div>
+                              </InnerReference>
+                            </Reference>
+                          </Manager>
+                        </PopperComponent>
+                      </DatePicker>
+                    </StyledComponent>
+                  </styled.input>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </InputComponent>
+  </DateInput>
+</ThemeProvider>
+`;

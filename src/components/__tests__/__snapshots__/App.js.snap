@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: App renders correctly 1`] = `
+<Fragment>
+  <GlobalStyleComponent />
+  <BrowserRouter>
+    <Switch>
+      <Route
+        component={[Function]}
+        path="/login"
+      />
+      <Connect(PrivateRouteComponent)
+        component={[Function]}
+        path="/logout"
+      />
+      <Connect(PrivateRouteComponent)
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+  </BrowserRouter>
+</Fragment>
+`;

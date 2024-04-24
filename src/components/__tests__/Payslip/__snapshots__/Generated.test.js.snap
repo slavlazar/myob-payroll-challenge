@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: Payslip: Generated Generated renders correctly 1`] = `
+<Card
+  loading={false}
+>
+  <Heading
+    id="payslip-generated-name"
+    noMargin={false}
+    textAlign="left"
+    type="h3"
+  >
+    Pay Slip for 
+    Bobs Burgers
+  </Heading>
+  <styled.div>
+    <styled.table>
+      <styled.thead>
+        <styled.tr>
+          <styled.th>
+            Item
+          </styled.th>
+          <styled.th>
+            Employee Details
+          </styled.th>
+        </styled.tr>
+      </styled.thead>
+      <styled.tbody>
+        <PayslipDisplay
+          data={
+            Object {
+              "annualSalary": "$60,050.00",
+              "grossIncome": "$5,004.00",
+              "incomeTax": "$871.00",
+              "name": "Bobs Burgers",
+              "netIncome": "$4,082.00",
+              "pay": "$3,632.00",
+              "payFrequency": "Monthly",
+              "payPeriod": "01 March to 31 March",
+              "superTotal": "$450.00",
+            }
+          }
+        >
+          <Component />
+        </PayslipDisplay>
+      </styled.tbody>
+    </styled.table>
+  </styled.div>
+  <styled.div
+    align="center"
+    justify="space-between"
+  >
+    <Button
+      aria-label="Start over and generate new payslip"
+      block={false}
+      colour="secondary"
+      disabled={false}
+      id="payslip-generated-reset-form"
+      onClick={[Function]}
+      size="small"
+      type="button"
+    >
+      Start over
+    </Button>
+    <PDFDownloadLink
+      document={
+        <PayslipPdf
+          payslip={
+            Object {
+              "annualSalary": "$60,050.00",
+              "grossIncome": "$5,004.00",
+              "incomeTax": "$871.00",
+              "name": "Bobs Burgers",
+              "netIncome": "$4,082.00",
+              "pay": "$3,632.00",
+              "payFrequency": "Monthly",
+              "payPeriod": "01 March to 31 March",
+              "superTotal": "$450.00",
+            }
+          }
+        />
+      }
+      fileName="MYOB_Payslip_01_March_to_31_March.pdf"
+      id="payslip-generated-pdf-download"
+    >
+      <Component />
+    </PDFDownloadLink>
+  </styled.div>
+</Card>
+`;
+
+exports[`Components: Payslip: Generated Payslip PDF renders correctly 1`] = `
+<DOCUMENT>
+  <PAGE
+    size="A4"
+    style={
+      Object {
+        "backgroundColor": "#f3f4f5",
+        "paddingBottom": 65,
+        "paddingHorizontal": 35,
+        "paddingTop": 35,
+      }
+    }
+  >
+    <IMAGE
+      src="MYOB_logo_RGB_1475x779.png"
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "width": 120,
+        }
+      }
+    />
+    <VIEW
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomLeftRadius": 3,
+          "borderBottomRightRadius": 3,
+          "borderTopLeftRadius": 3,
+          "borderTopRightRadius": 3,
+          "padding": 20,
+        }
+      }
+    >
+      <TEXT
+        id="payslip-pdf-name"
+        style={
+          Object {
+            "colour": "#2e3e4f",
+            "fontFamily": "NeutroMYOB",
+            "fontSize": 17,
+            "fontWeight": 600,
+            "paddingBottom": 16,
+          }
+        }
+      >
+        Pay Slip for 
+        Bobs Burgers
+      </TEXT>
+      <VIEW
+        style={
+          Object {
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "marginVertical": 10,
+          }
+        }
+      >
+        <VIEW
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#DCDFE1",
+                "borderBottomStyle": "solid",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingVertical": 10,
+              },
+              Object {
+                "borderBottomWidth": 2,
+              },
+            ]
+          }
+        >
+          <TEXT
+            style={
+              Array [
+                Object {
+                  "alignSelf": "flex-start",
+                  "width": "40%",
+                },
+                Object {
+                  "color": "#515e6d",
+                  "fontFamily": "NeutroMYOB",
+                  "fontSize": 14,
+                  "fontWeight": 400,
+                },
+                Object {
+                  "fontWeight": 600,
+                },
+              ]
+            }
+          >
+            Item
+          </TEXT>
+          <TEXT
+            style={
+              Array [
+                Object {
+                  "alignSelf": "flex-end",
+                  "maxWidth": "55%",
+                },
+                Object {
+                  "color": "#515e6d",
+                  "fontFamily": "NeutroMYOB",
+                  "fontSize": 14,
+                  "fontWeight": 400,
+                },
+                Object {
+                  "fontWeight": 600,
+                },
+              ]
+            }
+          >
+            Employee Details
+          </TEXT>
+        </VIEW>
+        <PayslipDisplay
+          data={
+            Object {
+              "annualSalary": "$60,050.00",
+              "grossIncome": "$5,004.00",
+              "incomeTax": "$871.00",
+              "name": "Bobs Burgers",
+              "netIncome": "$4,082.00",
+              "pay": "$3,632.00",
+              "payFrequency": "Monthly",
+              "payPeriod": "01 March to 31 March",
+              "superTotal": "$450.00",
+            }
+          }
+        >
+          <Component />
+        </PayslipDisplay>
+      </VIEW>
+    </VIEW>
+  </PAGE>
+</DOCUMENT>
+`;
+
+exports[`Components: Payslip: Generated PayslipDisplay renders correctly 1`] = `
+<Fragment>
+  {"key":"Employee","value":"Bobs Burgers","_rowKey":"name"}
+  {"key":"Pay Period","value":"01 March to 31 March","_rowKey":"payPeriod"}
+  {"key":"Pay Frequency","value":"Monthly","_rowKey":"payFrequency"}
+  {"key":"Annual Income","value":"$60,050.00","_rowKey":"annualSalary"}
+  {"key":"Gross Income","value":"$5,004.00","_rowKey":"grossIncome"}
+  {"key":"Income Tax","value":"$871.00","_rowKey":"incomeTax"}
+  {"key":"Net Income","value":"$4,082.00","_rowKey":"netIncome"}
+  {"key":"Super","value":"$450.00","_rowKey":"superTotal"}
+  {"key":"Pay","value":"$3,632.00","_rowKey":"pay"}
+</Fragment>
+`;

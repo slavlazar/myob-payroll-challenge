@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: Payslip renders correctly 1`] = `
+<styled.div>
+  <Header />
+  <styled.main
+    id="main"
+  >
+    <styled.div>
+      <styled.div>
+        <Heading
+          noMargin={false}
+          textAlign="left"
+          type="h1"
+        >
+          Pay Slip Generator
+        </Heading>
+        \\
+         
+        <Generator
+          error={null}
+          handleSubmit={[Function]}
+          loading={false}
+        />
+      </styled.div>
+    </styled.div>
+  </styled.main>
+  <Footer />
+</styled.div>
+`;

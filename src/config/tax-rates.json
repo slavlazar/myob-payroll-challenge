@@ -1,0 +1,27 @@
+[
+  {
+    "limit": 0,
+    "baseTaxAmount": 0,
+    "taxRate": 0
+  },
+  {
+    "limit": 18200,
+    "baseTaxAmount": 0,
+    "taxRate": 0.19
+  },
+  {
+    "limit": 37000,
+    "baseTaxAmount": 3572,
+    "taxRate": 0.325
+  },
+  {
+    "limit": 87000,
+    "baseTaxAmount": 19822,
+    "taxRate": 0.37
+  },
+  {
+    "limit": 180000,
+    "baseTaxAmount": 54232,
+    "taxRate": 0.45
+  }
+]
