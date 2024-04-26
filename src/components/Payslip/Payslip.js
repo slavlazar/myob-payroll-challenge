@@ -24,7 +24,7 @@ const Payslip = ({ payslip, handleSubmit, handleReset }) => {
       <MainBody id="main">
         <BodyWrapper>
           <Container>
-            <Heading>Pay Slip Generator</Heading>\{' '}
+            <Heading>Pay Slip Generator</Heading>{' '}
             {result === null || !result ? (
               <Generator
                 handleSubmit={handleSubmit}
