@@ -58,18 +58,17 @@ const GeneratedPayslip = ({ payslip, handleReset }) => (
         document={<PayslipPDF payslip={payslip} />}
         fileName={`MYOB_Payslip_${payslip.payPeriod.replace(/\s/g, '_')}.pdf`}
       >
-        {({ loading }) =>
-          loading ? null : (
-            <Button
-              size="small"
-              type="button"
-              colour="primary"
-              aria-label="Download generated payslip now"
-            >
-              Download now
-            </Button>
-          )
-        }
+        {({ loading }) => (
+          <Button
+            size="small"
+            type="button"
+            colour="primary"
+            disabled={loading}
+            aria-label="Download generated payslip now"
+          >
+            {loading ? 'Generating PDF' : 'Download now'}
+          </Button>
+        )}
       </PDFDownloadLink>
     </Flex>
   </Card>
