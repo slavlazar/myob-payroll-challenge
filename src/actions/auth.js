@@ -20,9 +20,9 @@ const actions = {
     } catch (error) {
       let errorMsg;
       if (error.isAxiosError) {
-        errorMsg = error.response.data.error.message;
+        errorMsg = error.response.data?.error?.message || 'Login failed!';
       } else {
-        errorMsg = error.response.data.error
+        errorMsg = error.response.data?.error
           ? error.response.data.error
           : error;
       }
